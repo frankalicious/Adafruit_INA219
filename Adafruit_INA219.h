@@ -116,6 +116,7 @@ class Adafruit_INA219{
   float getBusVoltage_V(void);
   float getShuntVoltage_mV(void);
   float getCurrent_mA(void);
+  float getPower_mW(void);
   void ina219SetCalibration_16V_400mA(void);
   void ina219SetCalibration_32V_2A(void);
   void ina219SetCalibration_32V_1A(void);
@@ -133,4 +134,5 @@ class Adafruit_INA219{
   int16_t getBusVoltage_raw(void);
   int16_t getShuntVoltage_raw(void);
   int16_t getCurrent_raw(void);
+  int16_t getPower_raw(void);
 };
